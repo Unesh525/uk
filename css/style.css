@@ -57,10 +57,27 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
+  overflow-x: hidden;
+    overflow-y: auto;
   background-color: #fff; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
+html, body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    scroll-behavior: smooth; /* smooth scrolling */
+}
+
+.navbar-collapse {
+    max-height: 80vh;
+    overflow-y: auto; /* mobile nav scroll */
+}
+
+section {
+    padding-top: 70px; /* navbar overlap fix */
+}
 
 hr {
   -webkit-box-sizing: content-box;
