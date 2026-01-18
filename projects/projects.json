@@ -5,7 +5,7 @@
     "image": "work-1",
     "category": "flask",
     "links": {
-      "view": "https://github.com/unesh525",
+      "view": "https://medicine-finder-jrlh.onrender.com/",
       "code": "https://github.com/unesh525"
     }
   },
@@ -25,7 +25,7 @@
     "image": "work-3",
     "category": "django",
     "links": {
-      "view": "https://github.com/unesh525",
+      "view": "https://food-delivery-158m.onrender.com",
       "code": "https://github.com/unesh525"
     }
   },
@@ -50,4 +50,5 @@
     }
   }
 ]
+
 
